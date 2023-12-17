@@ -6,7 +6,7 @@
     <title>Basic Web Page</title>
 </head>
 <body>
-    <h1>Main Heading</h1>
+    <h1>Da Heading</h1>
     <h2>Subheading</h2>
     <p>This is some text on the webpage. You can add more paragraphs as needed.</p>
     <p>Here's a link to <a href="https://www.google.com" target="_blank">Google</a>.</p>
