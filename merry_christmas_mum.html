@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Buttons</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+ background-image: url('IMG_2192.jpg'); /* Replace 'your-image.jpg' with your image file */
+            background-size: cover;
+            background-position: center;
+            justify-content: space-between;
+            height: 100vh;
+            background-color: #f0f0f0; /* Set your desired background color */
+        }
+
+        button {
+            border: none;
+            outline: none;
+            margin: 10px;
+            padding: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: #000000; /* Black text */
+        }
+
+        /* Alternating background colors for buttons */
+        button:nth-child(odd) {
+            background-color: #ff0000; /* Red */
+        }
+
+        button:nth-child(even) {
+            background-color: #ffffff; /* White */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>mum's website of all the things she says lots</h1>
+    <h2>press a button to play a sound so you dont have to talk</h2>
+
+<script>
+    // Define sound filenames for each button (adjust filenames accordingly)
+    const soundFiles = ['thing 1.mp3', 'thing 2.mp3','thing 3.mp3','thing 4.mp3','thing 5.mp3','thing 6.mp3','thing 7.mp3','thing 8.mp3','thing 9.mp3','thing 10.mp3','thing 11.mp3','thing 12.mp3','thing 13.mp3','thing 14.mp3','thing 15.mp3','thing 16.mp3','thing 17.mp3','thing 18.mp3','thing 19.mp3','thing 20.mp3','thing 21.mp3','thing 22.mp3','thing 23.mp3','thing 24.mp3','thing 25.mp3','thing 26.mp3','thing 27.mp3'];
+
+    // Function to play a sound based on the button index
+    function playSound(index) {
+        const audio = new Audio(soundFiles[index]);
+        audio.play();
+    }
+</script>
+
+
+<!-- Buttons with explicit HTML -->
+<button onclick="playSound(0)">NO</button>
+<button onclick="playSound(1)">YES</button>
+<button onclick="playSound(2)">Put on your pants Simon</button>
+<button onclick="playSound(3)">Have you got your elastics</button>
+<button onclick="playSound(4)">Feed the dog</button>
+<button onclick="playSound(5)">Go to sleep</button>
+<button onclick="playSound(6)">No screens </button>
+<button onclick="playSound(7)">Lets play a boardgame</button>
+<button onclick="playSound(8)">Get Dad to send clothes</button>
+<button onclick="playSound(9)">Have you had breakfast?</button>
+<button onclick="playSound(10)">I fell asleep</button>
+<button onclick="playSound(12)">We need Llamie</button>
+<button onclick="playSound(13)">Don’t listen to Graeme</button>
+<button onclick="playSound(14)">How was school?</button>
+<button onclick="playSound(15)">But, I cooked dinner last week</button>
+<button onclick="playSound(16)">Stop getting distracted</button>
+<button onclick="playSound(17)">Where’s Simon?</button>
+<button onclick="playSound(18)">No pizza</button>
+<button onclick="playSound(19)">God speed</button>
+<button onclick="playSound(20)">Young people these days</button>
+<button onclick="playSound(21)">Joe, that’s my undies</button>
+<button onclick="playSound(22)">You will like guides once you’re there</button>
+<button onclick="playSound(23)">We should walk the dog; look at him</button>
+<button onclick="playSound(24)">Bob, sit … I said sit!</button>
+<button onclick="playSound(26)">thanks simon for this butifull recording</button>
+
+
+</body>
+</html>
